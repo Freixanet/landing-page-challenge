@@ -1,0 +1,165 @@
+:root {
+    --light-purple: #666CA3;
+    --dark-blue: #13183F;
+    --grey: #83869A;
+    --dark-pink: #F74780;
+    --light-pink: #FFA7C3;
+    --white: #FFFFFF;
+    --hot-gradient: #F02AA6, #FF6F48;
+    --cold-gradient: #4851FF-#F02AA6;
+    --typography: 'Plus Jakarta Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--typography);
+    background-color: rgb(249, 249, 249);
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    width: 90%;
+}
+.logo {
+    cursor: pointer;
+}
+.blue-button {
+    border: none;
+    border-radius: 30px;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    width: 140px;
+    height: 48px;
+    cursor: pointer;
+}
+.blue-button:hover {
+    opacity: 0.7;
+}
+.blue-button:active {
+    opacity: 1;
+}
+main {
+    width: 90%;
+}
+
+h1 {
+    color: var(--dark-blue);
+    font-size: 40px;
+    line-height: 51px;
+    margin-bottom: 1.5rem;
+}
+p {
+    color: var(--grey);
+    font-size: 16px;
+    line-height: 26px;
+}
+.hot-gradient-button {
+    background-image: linear-gradient(to top, #F02AA6, #FF6F48);
+    border: none;
+    border-radius: 30px;
+    height: 56px;
+    width: 167px;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    color: var(--white);
+    font-size: 18px;
+}
+.hot-gradient-button:hover {
+    opacity: 0.7;
+}
+.hot-gradient-button:active {
+    opacity: 1;
+}
+.top-image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.courses-section-title-container {
+    height: 120px;
+    background-image: linear-gradient(to top, #F02AA6, #FF6F48);
+    color: var(--white);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 38px;
+    padding-left: 2rem;
+    margin-bottom: 3rem;
+}
+.course-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 259px;
+    font-size: 18px;
+    color: var(--grey);
+    line-height: 28px;
+    background-color: var(--white);
+    margin-bottom: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 10px;
+}
+.course-icon {
+    position: absolute;
+    bottom: 230px;
+}
+.course-section a {
+    color: orangered;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.course-section h4 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    color: var(--dark-blue)
+}
+footer {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--dark-blue);
+    height: 120px;
+}
+footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 95%;
+}
+.cold-gradient-button {
+    border: none;
+    color: var(--white);
+    background-image: linear-gradient(to bottom, #4851FF, #F02AA6);
+    height: 48px;
+    width: 140px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.cold-gradient-button:hover {
+    opacity: 0.7;
+}
+.cold-gradient-button:active {
+    opacity: 1;
+}
