@@ -1,0 +1,54 @@
+header {
+    max-width: 50rem;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+}
+.presentation {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 25rem;
+    margin-bottom: 4rem;
+    
+
+}
+.presentation-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+.top-image-container {
+    position: absolute;
+    left: 500px;
+    bottom: 120px;
+    width: 60%;
+    height: 100%;
+}
+.top-image-phone {
+    display: none;
+}
+.top-image-tablet {
+    display: initial;
+    height: 600px;
+    width: 580px;
+}
+.courses-section-container {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.courses-section-title-container {
+    margin-top: 1rem;
+    height: 259px;
+    width: 95%;
+}
+.course-section {
+    margin-top: 1rem;
+    width: 95%;
+    height: 259px;
+    
+}

@@ -87,6 +87,9 @@ p {
     justify-content: center;
     width: 100%;
 }
+.top-image-tablet {
+    display: none;
+}
 .courses-section-title-container {
     height: 120px;
     background-image: linear-gradient(to top, #F02AA6, #FF6F48);
@@ -119,7 +122,7 @@ p {
     bottom: 230px;
 }
 .course-section a {
-    color: orangered;
+    color: var(--dark-pink);
     font-size: 18px;
     line-height: 28px;
     margin-top: 1rem;
