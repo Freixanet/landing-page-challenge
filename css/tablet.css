@@ -1,10 +1,9 @@
-header {
-    max-width: 50rem;
-}
+
 main {
     display: flex;
     flex-direction: column;
     max-width: 50rem;
+    overflow-x: hidden;
 }
 .presentation {
     position: relative;
@@ -12,8 +11,6 @@ main {
     flex-direction: row;
     height: 25rem;
     margin-bottom: 4rem;
-    
-
 }
 .presentation-text {
     display: flex;
@@ -24,7 +21,7 @@ main {
 .top-image-container {
     position: absolute;
     left: 500px;
-    bottom: 120px;
+    bottom: 105px;
     width: 60%;
     height: 100%;
 }
@@ -35,6 +32,9 @@ main {
     display: initial;
     height: 600px;
     width: 580px;
+}
+.top-image-desktop {
+    display: none;
 }
 .courses-section-container {
     margin-top: 4rem;

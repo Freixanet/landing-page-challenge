@@ -24,6 +24,11 @@ body {
     background-color: rgb(249, 249, 249);
 }
 header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+header nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -88,6 +93,9 @@ p {
     width: 100%;
 }
 .top-image-tablet {
+    display: none;
+}
+.top-image-desktop {
     display: none;
 }
 .courses-section-title-container {
